@@ -3,7 +3,7 @@
     "rules": {
       "quotes": [
         2,
-        "single",
+        "double",
         {
           "avoidEscape": true,
           "allowTemplateLiterals": true
@@ -14,7 +14,7 @@
         "error",
         {
           "trailingComma": "es5",
-          "singleQuote": true,
+          "singleQuote": false,
           "printWidth": 80,
           "tabWidth": 2
         }
