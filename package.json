@@ -14,11 +14,12 @@
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,json}": [
+    "*.{js,jsx,json,ts,tsx}": [
       "prettier --write"
     ],
-    "*.{js,jsx}": [
-      "eslint --fix"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "npm run lint"
     ]
   },
   "dependencies": {
