@@ -11,65 +11,101 @@ exports[`<App /> has 1 child 1`] = `
     }
   }
 >
-  <Text>
-    New cositasdasdsadas
-  </Text>
-  <View
-    accessibilityRole="button"
-    accessibilityState={
-      {
-        "busy": undefined,
-        "checked": undefined,
-        "disabled": undefined,
-        "expanded": undefined,
-        "selected": undefined,
-      }
-    }
-    accessibilityValue={
-      {
-        "max": undefined,
-        "min": undefined,
-        "now": undefined,
-        "text": undefined,
-      }
-    }
-    accessible={true}
-    collapsable={false}
-    focusable={false}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
+  <ViewManagerAdapter_ExponentCamera
+    faceDetectorSettings={{}}
+    focusDepth={0}
+    onCameraReady={[Function]}
+    onFacesDetected={[Function]}
+    onMountError={[Function]}
+    onPictureSaved={[Function]}
+    onResponsiveOrientationChanged={[Function]}
     style={
       {
-        "opacity": 1,
+        "flex": 1,
+        "objectFit": "fill",
+        "width": "100%",
+      }
+    }
+    zoom={0}
+  />
+  <View
+    style={
+      {
+        "bottom": 0,
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "padding": 20,
+        "position": "absolute",
+        "width": "100%",
       }
     }
   >
     <View
       style={
-        [
-          {},
-        ]
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flex": 1,
+        }
       }
     >
-      <Text
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          [
-            {
-              "color": "#007AFF",
-              "fontSize": 18,
-              "margin": 8,
-              "textAlign": "center",
-            },
-          ]
+          {
+            "alignItems": "center",
+            "backgroundColor": "#000",
+            "borderColor": "#fff",
+            "borderRadius": 50,
+            "borderWidth": 4,
+            "bottom": 0,
+            "flex": 1,
+            "height": 70,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 70,
+          }
         }
       >
-        Botton de javo
-      </Text>
+        <View
+          style={
+            {
+              "backgroundColor": "#fff",
+              "borderRadius": 50,
+              "bottom": 0,
+              "height": 55,
+              "width": 55,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
 </View>

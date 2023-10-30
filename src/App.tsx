@@ -1,12 +1,12 @@
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, View } from "react-native";
+import DefaultCamera from "./components/Camera";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>New cositasdasdsadas</Text>
-      <Button title="Botton de javo" />
+      <DefaultCamera />
       <StatusBar style="auto" />
     </View>
   );
