@@ -1,7 +1,7 @@
 # shopycheck
 This is an open source e-commerce skateshop build with everything new in Next.js 13
 
-#Tech Stack
+# Tech Stack
 - Framework: Next.js
 - Styling: Tailwind CSS
 - User Management: Clerk
@@ -10,16 +10,16 @@ This is an open source e-commerce skateshop build with everything new in Next.js
 - File Uploads: uploadthing
 - Payments infrastructure: Stripe
 
-#Features to be implemented
-[ ] Add Stripe connection
-[ ] Add Categories
-[ ] Add Store backend
-[ ] Add favorites page
-[ ] Add Payments history
-[ ] Have Clerk and NextAuth Login
-[ ] Validate stock when the user is buying products
+# Features to be implemented
+- [ ] Add Stripe connection
+- [ ] Add Categories
+- [ ] Add Store backend
+- [ ] Add favorites page
+- [ ] Add Payments history
+- [ ] Have Clerk and NextAuth Login
+- [ ] Validate stock when the user is buying products
 
-#Running Locally
+# Running Locally
 1. Clone the repository
 
    ```bash
